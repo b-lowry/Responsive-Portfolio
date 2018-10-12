@@ -219,31 +219,33 @@ input[type=submit] {
 /*Media Queries*/
 
 @media screen and (max-width: 980px) {
-
-}
-
-@media screen and (max-width: 768px) {
   #masthead {
-    max-width: 768px;
-    min-width: 640px;
+    width: 100%;
+  }
+
+  .container {
+    margin-left: 0%;
   }
 
   .main-section {
-    width: 90%;
-    align-content: center;
-    min-height: 100%;
-  }
-
-  .container nav {
-    margin-top: 0;
-  }
-
-  #masthead nav {
-    margin-top: 20px;
+    max-width: 80%;
   }
 
   nav {
-    float: left;
+    margin-right: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    max-width: 100%;
+  }
+
+  nav {
+    margin-right: 15%; 
+  }
+
+  .work {
+    margin: 0;
   }
 }
 
