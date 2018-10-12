@@ -233,7 +233,12 @@ input[type=submit] {
 
   nav {
     margin-right: 25%;
-}
+  }
+
+  ul {
+    list-style: none;
+  }
+} 
 
 @media screen and (max-width: 768px) {
   .main-section {
@@ -246,6 +251,10 @@ input[type=submit] {
 
   .work {
     margin: 0;
+  }
+
+  ul {
+    list-style: none;
   }
 }
 
